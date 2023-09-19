@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "61bf08b7-e582-4455-9668-976bd62658fd"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -96,7 +99,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ]
           }
         }
       }
